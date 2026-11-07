@@ -1,9 +1,9 @@
-Repository for Homework 4 of Robotics Lab course made by Marco Bartone P38000237, Giacomo Caiazzo P38000236, Matteo De Simone P38000232, Nicola Monetti P38000238.
+# ROS 2 Fra2Mo Navigation and Mapping
 
-# Robotics Lab - Homework 4
+**Contributors:** Marco Bartone, Giacomo Caiazzo, Matteo De Simone and Nicola Monetti.
 
 ### Overview
-This is a report of the Homework 4 of Robotics Lab course using Docker and ROS2 with Gazebo and RVIZ2. The repository contains the steps to download the folders from github and to run the files for the simulations of the mobile robot "fra2mo".
+A ROS 2 workspace for simulating the Fra2Mo mobile robot in Gazebo and visualizing its navigation in RViz2. It includes Nav2 navigation, map exploration and saving, waypoint following, and ArUco marker detection with world-frame pose estimation.
 
 ### Usage
 
