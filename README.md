@@ -9,7 +9,8 @@ A ROS 2 workspace for simulating the Fra2Mo mobile robot in Gazebo and visualizi
 
 Open the terminal, open the container and enter into the directory where you want to download the folder, then download it with:
 
-	git clone https://github.com/giacomocaiazzo/Giacomo_Caiazzo_Homework_4
+	git clone https://github.com/giacomocaiazzo/ros2-fra2mo-navigation.git
+	cd ros2-fra2mo-navigation
  
 To build the packages, enter into the ROS2 workspace and build them with:
 
@@ -51,7 +52,7 @@ To make the robot look for and detect the aruco marker, use the following comman
 and:
 
 	ros2 run rl_fra2mo_description aruco_finder.py
- The aruco pose estimation in world frame can bee read from the /tf_static topic using:
+ The aruco pose estimation in world frame can be read from the /tf_static topic using:
 
   	ros2 topic echo /tf_static 
 --------------------------------
